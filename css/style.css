@@ -40,3 +40,8 @@
 .sec-mb {
     margin-bottom: 6%;
 }
+
+.object-cov {
+    object-fit: cover;
+    object-position: center;
+}
