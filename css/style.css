@@ -45,3 +45,12 @@
     object-fit: cover;
     object-position: center;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3% !important;
+}
+
+/* .carousel-indicators [data-bs-target] {
+    background-color: black !important;
+} */
