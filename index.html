@@ -286,18 +286,91 @@
             </div>
         </section>
 
+        <!-- Ready to join modal  -->
         <section class="container sec-mb">
 
-            <div class="d-flex justify-content-between bg-vio-color">
-                <div>
-                    <h1>Ready to join?</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+
+            <div
+                class="row justify-content-between bg-vio-color p-5 align-items-center rounded-5 text-white text-center text-lg-start">
+                <div class="col-lg-6 col-12">
+                    <div>
+                        <h1 class="">Ready to join?</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of
+                            a
+                            page
+                            when looking at its layout.</p>
+                    </div>
                 </div>
-                <div>
-                    <button class="btn btn-custom">Register Now</button>
+                <div class="col-lg-6 col-12 d-lg-flex justify-content-end mt-lg-0 mt-3">
+                    <div>
+                        <button type="button" class="btn btn-custom" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Register Now
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="d-flex align-items-center justify-content-between p-3">
+                                        <h5 class="modal-title text-black" id="exampleModalLabel">Sign Up</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex flex-column justify-content-center aline-item-center">
+                                            <form class="text-muted" action="">
+                                                <div class="form-floating mb-3">
+                                                    <input type="email" class="form-control" id="floatingInput"
+                                                        placeholder="name@example.com">
+                                                    <label for="floatingInput">Email address</label>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input type="password" class="form-control" id="floatingPassword"
+                                                        placeholder="Password">
+                                                    <label for="floatingPassword">Password</label>
+                                                </div>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Studying In</option>
+                                                    <option value="1">K-10</option>
+                                                    <option value="2">SSC</option>
+                                                    <option value="3">HSC</option>
+                                                    <option value="3">University</option>
+                                                </select>
+                                                <div class="form-check mb-3 mt-2">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Accept our <a href="#">Terms & Condetion</a>
+                                                    </label>
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        <a href="#">Already have an account</a>
+                                                    </label>
+                                                </div>
+                                                <input class="btn view-btn text-white" type="submit" value="Sign Up">
+
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+
+        </section>
+
+
+        <section>
+            <!-- Vertically centered modal -->
+
+            <!-- Button trigger modal -->
+
 
         </section>
 
